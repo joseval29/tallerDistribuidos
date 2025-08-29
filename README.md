@@ -27,21 +27,15 @@ El objetivo es multiplicar matrices cuadradas grandes usando el algoritmo clasic
    * Repeticiones: 30.
 - Guarda resultados en archivos .dat.
 - Cada archivo contiene 30 tiempos.
-5. Resultados (.dat → Excel/CSV)
+5. Resultados (.dat → Excel)
 - A partir de los .dat se calcularon:
    * Media (tiempo promedio).
    * Desviacion estandar.
-- Se genero un Excel/CSV con columnas:
-   Tamaño_matriz | Hilos | N_datos | Media | Desviacion_Estandar | Archivo.
+- Se genero un Excel con columnas:
+   Tamaño_matriz | Hilos | N_datos | Media | Desviacion_Estandar.
 - Permite graficar Tiempo vs Hilos, Speedup y Eficiencia.
 6. Plan de pruebas
 - Se pide medir 12 tamanos menores a 14K y con hilos {1, 4, 8, 16, 20}.
 - Repeticiones: 30 por combinacion.
 - Con esto se obtiene base estadistica solida.
-Resumen
-1. Codigo C → multiplica matrices NxN con OpenMP.
-2. Makefile → compila y ejecuta pruebas.
-3. Script Perl → automatiza ejecuciones y genera .dat.
-4. Archivos .dat → contienen tiempos de ejecucion.
-5. Excel/CSV → resume resultados con media y desviacion estandar.
-6. Analisis → se calculan speedup, eficiencia y escalabilidad.
+
