@@ -112,5 +112,4 @@ Para N = 200:
 
 ---
 
-✍️ **Autor:** Proyecto academico de paralelismo con OpenMP.  
-📅 **Fecha:** 2025
+
